@@ -1,0 +1,25 @@
+.post-content img[src*="img.shields.io"] {
+    display: inline-block;
+    margin: 3px;
+    vertical-align: middle;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu .social-icons {
+    display: flex;
+    margin-left: 10px;
+}
+
+.header-menu .social-icons a {
+    padding: 0 8px; 
+}
+
+.header-menu .social-icons a svg {
+    height: 24px;
+    width: 24px;
+}
+ 

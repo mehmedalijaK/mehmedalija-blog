@@ -1,0 +1,151 @@
+baseURL = "https://mehmedalijak.com/"
+languageCode = "en"
+title = "Mehmedalija Blog"
+theme = "PaperMod"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+  pagerSize = 5
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  author = "Mehmedalija Karišik"
+  description = "The personal blog and portfolio of Mehmedalija Karišik, a passionate software developer."
+  keywords = ["Blog", "Portfolio", "Software Development", "Mehmedalija Karišik"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableScrollToTop = false
+  comments = false
+
+  socialIcons = [
+      { name = "github", url = "https://github.com/mehmedalijaK" },
+      { name = "linkedin", url = "https://www.linkedin.com/in/mehmedalija-karisik/" },
+      { name = "email", url = "mailto:karisik.mehmedalija@gmail.com" }
+  ]
+
+  [params.profileMode]
+    enabled = true
+
+  [params.cover]
+    hidden = true
+    hiddenInList = true
+    hiddenInSingle = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 1
+    keys = ["title", "permalink", "summary", "content"]
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    
+    [languages.en.params.profileMode]
+      enabled = true
+      title = "Hi, I'm Mehmedalija Karišik 👋"
+      subtitle = "I'm a developer and lifelong learner. This blog is my personal space to document projects, share what I've learned, and connect with others in the tech community."
+      imageUrl = ""
+      imageTitle = ""
+      buttons = [
+        { name = "Posts", url = "/posts" },
+        { name = "Tags", url = "/tags" }
+      ]
+
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "posts-en"
+      name = "Posts"
+      url = "/posts/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "categories-en"
+      name = "Categories"
+      url = "/categories/"
+      weight = 25
+    [[languages.en.menu.main]]
+      identifier = "tags-en"
+      name = "Tags"
+      url = "/tags/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "search-en"
+      name = "Search"
+      url = "/search/"
+      weight = 40
+
+  [languages.sr]
+    languageName = "Srpski"
+    weight = 2
+    contentDir = "content/sr"
+
+    [languages.sr.params.profileMode]
+      enabled = true
+      title = "Zdravo, ja sam Mehmedalija Karišik 👋"
+      subtitle = "Ja sam developer i volim da učim. Ovaj blog služi kao moj lični prostor za dokumentovanje projekata, deljenje onoga što sam naučio i povezivanje sa drugima u tehnološkoj zajednici."
+      imageUrl = ""
+      imageTitle = ""
+      buttons = [
+        { name = "Postovi", url = "/sr/posts" },
+        { name = "Tagovi", url = "/sr/tags" }
+      ]
+
+    [[languages.sr.menu.main]]
+      identifier = "o-meni"
+      name = "O Meni"
+      url = "/sr/o-meni/"
+      weight = 10
+    [[languages.sr.menu.main]]
+      identifier = "posts-sr"
+      name = "Postovi"
+      url = "/sr/posts/"
+      weight = 20
+    [[languages.sr.menu.main]]
+      identifier = "categories-sr"
+      name = "Kategorije"
+      url = "/sr/categories/"
+      weight = 25
+    [[languages.sr.menu.main]]
+      identifier = "tags-sr"
+      name = "Tagovi"
+      url = "/sr/tags/"
+      weight = 30
+    [[languages.sr.menu.main]]
+      identifier = "search-sr"
+      name = "Pretraga"
+      url = "/sr/search/"
+      weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    pygmentsUseClasses = true
