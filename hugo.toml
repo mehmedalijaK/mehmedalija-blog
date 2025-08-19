@@ -65,7 +65,7 @@ buildExpired = false
     languageName = "English"
     weight = 1
     contentDir = "content/en"
-    
+
     [languages.en.params.profileMode]
       enabled = true
       title = "Hi, I'm Mehmedalija Karišik 👋"
@@ -76,6 +76,10 @@ buildExpired = false
         { name = "Posts", url = "/posts" },
         { name = "Tags", url = "/tags" }
       ]
+    [languages.en.params.editPost]
+      URL = "https://github.com/mehmedalijaK/mehmedalija-blog/edit/main/content/en"
+      Text = "Suggest Edits"
+      appendFilePath = true
 
     [[languages.en.menu.main]]
       identifier = "about"
@@ -118,6 +122,10 @@ buildExpired = false
         { name = "Postovi", url = "/sr/posts" },
         { name = "Tagovi", url = "/sr/tags" }
       ]
+    [languages.sr.params.editPost]
+      URL = "https://github.com/mehmedalijaK/mehmedalija-blog/edit/main/content/sr"
+      Text = "Predloži izmenu"
+      appendFilePath = true
 
     [[languages.sr.menu.main]]
       identifier = "o-meni"
