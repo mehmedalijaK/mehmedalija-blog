@@ -2,6 +2,7 @@
 title: "Statička vs. Dinamička Analiza: Dva Ključna Pristupa Kvalitetnom Kodu"
 date: 2025-08-17T22:00:00+02:00
 draft: false
+translationKey: "static-dynamic-analysis-post"
 tags: ["programiranje", "kotlin", "analiza-koda", "softverski-inzenjering"]
 categories: ["Kompajleri"]
 description: "Razlike između statičke i dinamičke analize koda, dva stuba na kojima počiva razvoj pouzdanog softvera."

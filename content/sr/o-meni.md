@@ -2,6 +2,7 @@
 title: "O Meni"
 date: 2024-08-17T12:10:00+02:00
 draft: false
+translationKey: "about"
 ---
 
 Moje ime je **Mehmedalija Karišik** i softverski sam inženjer iz Beograda, Srbija.  

@@ -4,4 +4,5 @@ layout: "search"
 url: "/search/"
 summary: "search"
 placeholder: "Type to search..."
+translationKey: "search"
 ---

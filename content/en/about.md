@@ -2,6 +2,7 @@
 title: "About Me"
 date: 2024-08-17T12:10:00+02:00
 draft: false
+translationKey: "about"
 ---
 
 My name is **Mehmedalija Karišik**, and I am a software engineer from Belgrade, Serbia.  

@@ -2,6 +2,7 @@
 title: "Static vs. Dynamic Analysis: Two Key Approaches to Quality Code"
 date: 2025-08-17T22:00:00+02:00
 draft: false
+translationKey: "static-dynamic-analysis-post"
 tags: ["programming", "kotlin", "code-analysis", "software-engineering"]
 categories: ["Compilers"]
 description: "Exploring the differences between static and dynamic code analysis and why both matter when building reliable software."
