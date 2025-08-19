@@ -44,7 +44,7 @@ buildExpired = false
   ]
 
   [params.profileMode]
-    enabled = true
+    enabled = false
 
   [params.cover]
     hidden = true
@@ -67,15 +67,16 @@ buildExpired = false
     contentDir = "content/en"
 
     [languages.en.params.profileMode]
-      enabled = true
-      title = "Hi, I'm Mehmedalija Karišik 👋"
-      subtitle = "I'm a developer and lifelong learner. This blog is my personal space to document projects, share what I've learned, and connect with others in the tech community."
-      imageUrl = ""
-      imageTitle = ""
-      buttons = [
-        { name = "Posts", url = "/posts" },
-        { name = "Tags", url = "/tags" }
-      ]
+      enabled = false
+
+    [languages.en.params.homeInfoParams]
+      Title = "Hi, I'm Mehmedalija Karišik 👋"
+      Content = """
+My name is **Mehmedalija Karišik**, and I am a software engineer from Belgrade, Serbia. I work as a **Native Kotlin Android Developer** and as a **teaching assistant** in the *Compilers* course.
+
+I started this blog to write about topics that inspire me and to share my knowledge with the wider tech community. Below you can find my latest posts.
+"""
+
     [languages.en.params.editPost]
       URL = "https://github.com/mehmedalijaK/mehmedalija-blog/edit/main/content/en"
       Text = "Suggest Edits"
@@ -113,15 +114,16 @@ buildExpired = false
     contentDir = "content/sr"
 
     [languages.sr.params.profileMode]
-      enabled = true
-      title = "Zdravo, ja sam Mehmedalija Karišik 👋"
-      subtitle = "Ja sam developer i volim da učim. Ovaj blog služi kao moj lični prostor za dokumentovanje projekata, deljenje onoga što sam naučio i povezivanje sa drugima u tehnološkoj zajednici."
-      imageUrl = ""
-      imageTitle = ""
-      buttons = [
-        { name = "Postovi", url = "/sr/posts" },
-        { name = "Tagovi", url = "/sr/tags" }
-      ]
+      enabled = false
+
+    [languages.sr.params.homeInfoParams]
+      Title = "O Meni"
+      Content = """
+Moje ime je **Mehmedalija Karišik** i softverski sam inženjer iz Beograda. Diplomirao sam na Računarskom fakultetu, gde danas radim i kao asistent na predmetu *Programski prevodioci*.
+
+Ovaj blog pokrenuo sam da bih pisao o temama koje me lično inspirišu i koje želim da podelim sa zajednicom. U nastavku možete pronaći objave.
+"""
+
     [languages.sr.params.editPost]
       URL = "https://github.com/mehmedalijaK/mehmedalija-blog/edit/main/content/sr"
       Text = "Predloži izmenu"
